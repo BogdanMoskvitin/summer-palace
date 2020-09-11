@@ -1,0 +1,68 @@
+ng-sidebar-container {
+    height: 100vh;
+}
+::ng-deep .ng-sidebar {
+    background-color: #F9F7F7;
+    width: 300px;
+}
+.header__burger {
+    z-index: 10;
+    display: none;
+	width: 30px;
+    height: 30px;
+    margin: 60px 0 0 20px;
+    position: absolute;
+    background: none;
+}
+@media(max-width: 1024px) {
+    .header__burger {
+        display: block;
+    }
+}
+.menu-icon-line {
+	position: relative;
+	width: 30px;
+	height: 5px;
+    background-color: black;
+    border-radius: 25%;
+}
+.menu-icon-line::before {
+	position: absolute;
+	left: 0;
+	top: -10px;
+	content: '';
+	width: 30px;
+	height: 5px;
+    background-color: black;
+    border-radius: 25%;
+}
+.menu-icon-line::after {
+	position: absolute;
+	left: 0;
+	top: 10px;
+	content: '';
+	width: 30px;
+	height: 5px;
+    background-color: black;
+    border-radius: 25%;
+}
+.menu {
+    margin: 120px 0 0 20px; 
+}
+.burger__li {
+    padding: 0 0 15px 0;
+}
+.burger__a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+.burger__a:hover {
+    color: #D1A954;
+}

@@ -1,0 +1,36 @@
+.header__top-box {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+    padding: 60px 0;
+}
+.header__logo {
+    height: 87px;
+    width: 160px;
+    background-color: #D1A954;
+}
+@media(max-width: 1024px) {
+    .header__box-menu {
+        display: none;
+    }
+}
+.header__li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 15px;
+}
+.header__a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+.header__a:hover {
+    color: #D1A954;
+}
